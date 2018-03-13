@@ -28,7 +28,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/meetup/urlname-member-approvals-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/meetup/urlname-member-approvals-delete.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
