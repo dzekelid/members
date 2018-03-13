@@ -40,7 +40,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/github/teams-teamid-memberships-username-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/github/teams-teamid-memberships-username-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
