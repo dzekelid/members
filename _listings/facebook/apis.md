@@ -36,7 +36,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/facebook/group-id-members-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/facebook/group-id-members-delete.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
