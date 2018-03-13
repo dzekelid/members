@@ -28,7 +28,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/datagov/organizations-org-membership-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/datagov/organizations-org-membership-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
