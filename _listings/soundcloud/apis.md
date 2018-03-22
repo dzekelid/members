@@ -18,9 +18,9 @@ tags:
 - Audio
 - Audio
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/soundcloud/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/soundcloud/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: SoundCloud
@@ -33,7 +33,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/members/master/_listings/soundcloud/groups-group-id-members-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/soundcloud/groups-group-id-members-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
