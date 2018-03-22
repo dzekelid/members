@@ -40,7 +40,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-members-username-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-public-members-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
