@@ -32,7 +32,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/microsoft-graph/directoryroles-id-members-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/microsoft-graph/groups-id-members-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
