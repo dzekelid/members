@@ -28,7 +28,7 @@ apis:
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-blocks-member-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/urlname-member-approvals-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
