@@ -34,17 +34,17 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/microsoft-graph/groups-id-members-get.md
 - name: Microsoft Graph API List Members
-  description: List members Retrieve a list of the users that are assigned to the
-    directory role.  Only users can be assigned to a directory role.
+  description: List members Get a list of the group's direct members. A group can
+    have users, contacts, and other groups as members. This operation is not transitive.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/microsoft-graph/directoryroles-id-members-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/microsoft-graph/groups-id-members-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/microsoft-graph/directoryroles-id-members-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/microsoft-graph/groups-id-members-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
