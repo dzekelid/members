@@ -41,23 +41,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/teams-teamid-memberships-username-put.md
-- name: Github Get Orgs Org Members
+- name: Github Delete Orgs Org Members Username
   description: |-
-    Members list.
-    List all users who are members of an organization. A member is a user tha
-    belongs to at least 1 team in the organization. If the authenticated user
-    is also an owner of this organization then both concealed and public members
-    will be returned. If the requester is not an owner of the organization the
-    query will be redirected to the public members list.
+    Remove a member.
+    Removing a user from this list will remove them from all teams and they
+    will no longer have any access to the organization's repositories.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-members-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-members-username-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-members-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-members-username-delete-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
