@@ -41,17 +41,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/teams-teamid-memberships-username-put.md
-- name: Github Put Orgs Org Public Members Username
-  description: Publicize a user's membership.
+- name: Github Get Teams Team Members
+  description: |-
+    List team members.
+    In order to list members in a team, the authenticated user must be a member
+    of the team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-public-members-username-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/teams-teamid-members-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/orgs-org-public-members-username-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/github/teams-teamid-members-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
