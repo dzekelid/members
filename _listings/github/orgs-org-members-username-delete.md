@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: GitHub
-  description: GitHub is the best place to share code with friends, co-workers, classmates,
-    and complete strangers. Over 24 million people use GitHub to build amazing things
-    together across 67 million repositories. With the collaborative features of GitHub.com
-    and GitHub Business, it has never been easier for individuals and teams to write
-    faster, better code.
+  title: Github Delete Orgs Org Members Username
+  description: |-
+    Remove a member.
+    Removing a user from this list will remove them from all teams and they
+    will no longer have any access to the organization's repositories.
   termsOfService: https://help.github.com/articles/github-terms-of-service/#b-api-terms
   version: 1.0.0
 host: api.github.com
@@ -27,23 +26,15 @@ paths:
       - in: header
         name: Accept
         description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
       - in: path
         name: org
         description: Name of organisation
       - in: path
         name: username
         description: Name of the user
-      - in: header
-        name: X-GitHub-Media-Type
-        description: You can check the current version of media type in responses
-      - in: header
-        name: X-GitHub-Request-Id
-      - in: header
-        name: X-RateLimit-Limit
-      - in: header
-        name: X-RateLimit-Remaining
-      - in: header
-        name: X-RateLimit-Reset
       responses:
         200:
           description: OK
