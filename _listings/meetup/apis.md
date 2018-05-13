@@ -29,15 +29,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-groups-get.md
-- name: Meetup Membership Decline
-  description: Declines one or more requests for group membership
+- name: Meetup Member Events
+  description: |-
+    Gets a listing of all scheduled Meetup Events the authenticated member has RSVP'd to
+    that have been announced to the group.
+    This listing is ordered from oldest to most recent by default
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/urlname-member-approvals-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-events-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
