@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Member Events
+  description: |-
+    Gets a listing of all scheduled Meetup Events the authenticated member has RSVP'd to
+    that have been announced to the group.
+    This listing is ordered from oldest to most recent by default
   version: 1.0.0
 host: api.meetup.com
 basePath: /
