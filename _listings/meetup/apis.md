@@ -29,18 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-groups-get.md
-- name: Meetup Member Events
-  description: |-
-    Gets a listing of all scheduled Meetup Events the authenticated member has RSVP'd to
-    that have been announced to the group.
-    This listing is ordered from oldest to most recent by default
+- name: Meetup Member Calendar
+  description: Get a listing of all upcoming Meetup events for the authenticated member
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-events-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-calendar-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
