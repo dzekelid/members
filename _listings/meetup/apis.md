@@ -29,15 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-groups-get.md
-- name: Meetup Members
-  description: API method for accessing members of Meetup Groups
+- name: Meetup Block member
+  description: Blocks a target member from various interactions with the authenticated
+    member on the platform
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/members-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/meetup/self-blocks-member-id-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
