@@ -29,17 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/datagov/organizations-org-membership-id-refuse-post.md
-- name: Data.gov API Add Organizations Org Membership  Accept
-  description: Accept user membership to a given organization
+- name: Data.gov API Add Organizations Org Membership  Refuse
+  description: Refuse user membership to a given organization
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Members
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/datagov/organizations-org-membership-id-accept-post.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/datagov/organizations-org-membership-id-accept-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/members/master/_listings/datagov/organizations-org-membership-id-refuse-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
